@@ -180,9 +180,9 @@ public boolean array123(int[] nums) {
 
 Given 2 strings, a and b, return the number of the positions where they contain the same length 2 substring. So "xxcaazz" and "xxbaaz" yields 3, since the "xx", "aa", and "az" substrings appear in the same place in both strings.
 
-stringMatch("xxcaazz", "xxbaaz") → 3
-stringMatch("abc", "abc") → 2
-stringMatch("abc", "axc") → 0
+* stringMatch("xxcaazz", "xxbaaz") → 3
+* stringMatch("abc", "abc") → 2
+* stringMatch("abc", "axc") → 0
 
 ```java
 public int stringMatch(String a, String b) {
@@ -199,9 +199,9 @@ public int stringMatch(String a, String b) {
 
 Given a string, return a version where all the "x" have been removed. Except an "x" at the very start or end should not be removed.
 
-stringX("xxHxix") → "xHix"
-stringX("abxxxcd") → "abcd"
-stringX("xabxxxcdx") → "xabcdx"
+* stringX("xxHxix") → "xHix"
+* stringX("abxxxcd") → "abcd"
+* stringX("xabxxxcdx") → "xabcdx"
 
 ```java
 public String stringX(String str) {
@@ -220,9 +220,9 @@ public String stringX(String str) {
 
 Given a string, return a string made of the chars at indexes 0,1, 4,5, 8,9 ... so "kittens" yields "kien".
 
-altPairs("kitten") → "kien"
-altPairs("Chocolate") → "Chole"
-altPairs("CodingHorror") → "Congrr"
+* altPairs("kitten") → "kien"
+* altPairs("Chocolate") → "Chole"
+* altPairs("CodingHorror") → "Congrr"
 
 ```java
 public String altPairs(String str) {
@@ -239,9 +239,9 @@ public String altPairs(String str) {
 
 Suppose the string "yak" is unlucky. Given a string, return a version where all the "yak" are removed, but the "a" can be any char. The "yak" strings will not overlap.
 
-stringYak("yakpak") → "pak"
-stringYak("pakyak") → "pak"
-stringYak("yak123ya") → "123ya"
+* stringYak("yakpak") → "pak"
+* stringYak("pakyak") → "pak"
+* stringYak("yak123ya") → "123ya"
 
 ```java
 public String stringYak(String str) {
@@ -258,9 +258,9 @@ public String stringYak(String str) {
 
 Given an array of ints, return the number of times that two 6's are next to each other in the array. Also count instances where the second "6" is actually a 7.
 
-array667([6, 6, 2]) → 1
-array667([6, 6, 2, 6]) → 1
-array667([6, 7, 2, 6]) → 1
+* array667([6, 6, 2]) → 1
+* array667([6, 6, 2, 6]) → 1
+* array667([6, 7, 2, 6]) → 1
 
 ```java
 public int array667(int[] nums) {
@@ -278,9 +278,9 @@ public int array667(int[] nums) {
 
 Given an array of ints, we'll say that a triple is a value appearing 3 times in a row in the array. Return true if the array does not contain any triples.
 
-noTriples([1, 1, 2, 2, 1]) → true
-noTriples([1, 1, 2, 2, 2, 1]) → false
-noTriples([1, 1, 1, 2, 2, 2, 1]) → false
+* noTriples([1, 1, 2, 2, 1]) → true
+* noTriples([1, 1, 2, 2, 2, 1]) → false
+* noTriples([1, 1, 1, 2, 2, 2, 1]) → false
 
 ```java
 public boolean noTriples(int[] nums) {
@@ -295,9 +295,9 @@ public boolean noTriples(int[] nums) {
 
 Given an array of ints, return true if it contains a 2, 7, 1 pattern: a value, followed by the value plus 5, followed by the value minus 1. Additionally the 271 counts even if the "1" differs by 2 or less from the correct value.
 
-has271([1, 2, 7, 1]) → true
-has271([1, 2, 8, 1]) → false
-has271([2, 7, 1]) → true
+* has271([1, 2, 7, 1]) → true
+* has271([1, 2, 8, 1]) → false
+* has271([2, 7, 1]) → true
 
 ```java
 public boolean has271(int[] nums) {
