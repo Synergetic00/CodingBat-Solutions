@@ -36,6 +36,16 @@ sumDouble(2, 2) → 8
 
 ```java
 public int sumDouble(int a, int b) {
+    if (a != b) {
+        return a + b;
+    } else {
+        return (a + b) * 2;
+    }
+}
+```
+
+```java
+public int sumDouble(int a, int b) {
     return (a != b) ? a+b : (a+b)*2;
 }
 ```
@@ -451,8 +461,7 @@ stringE("Heelele") → false
 public boolean stringE(String str) {
     int count = 0;
     char[] chArr = str.toCharArray();
-    for (char i : chArr)
-    {
+    for (char i : chArr) {
         if (i == 'e') { count++; }
     }
     return (count >= 1 && count <= 3);
