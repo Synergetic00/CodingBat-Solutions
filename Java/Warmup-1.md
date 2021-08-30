@@ -1,3 +1,7 @@
+# Warmup-1
+
+Simple warmup problems to get started (solutions available). **New** videos: String Introduction, String Substring, If Boolean Logic 1, If Boolean Logic 2
+
 ## sleepIn
 
 The parameter weekday is true if it is a weekday, and the parameter vacation is true if we are on vacation. We sleep in if it is not a weekday or we're on vacation. Return true if we sleep in.
