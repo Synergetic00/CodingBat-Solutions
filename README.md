@@ -1,7 +1,22 @@
 ## Java
 
-- AP-1
-- 
+- [x] Warmup-1:
+- [x] Warmup-2:
+- [ ] String-1:
+- [ ] Array-1:
+- [ ] Logic-1:
+- [ ] Logic-2:
+- [ ] String-2:
+- [ ] String-3:
+- [ ] Array-2:
+- [ ] Array-3:
+- [ ] AP-1:
+- [ ] Recursion-1:
+- [ ] Recursion-2:
+- [ ] Map-1:
+- [ ] Map-2:
+- [ ] Functional-1:
+- [ ] Functional-2:
 
 ## Python
 
